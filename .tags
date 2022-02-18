@@ -1,0 +1,44 @@
+!_TAG_FILE_ENCODING	UTF-8	//
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+0	renovate.json	/^                "^@angular-devkit\/"$/;"	s	array:packageRules.1.packagePatterns
+0	renovate.json	/^                "^jasmine",$/;"	s	array:packageRules.0.packagePatterns
+0	renovate.json	/^                "^mysql"$/;"	s	array:packageRules.2.packagePatterns
+0	renovate.json	/^            "before 3am on the first day of the month"$/;"	s	array:lockFileMaintenance.schedule
+0	renovate.json	/^        "before 2pm"$/;"	s	array:schedule
+0	renovate.json	/^        "config:base",$/;"	s	array:extends
+0	renovate.json	/^        "renovate"$/;"	s	array:labels
+0	renovate.json	/^        {$/;"	o	array:packageRules
+1	renovate.json	/^                "^karma"$/;"	s	array:packageRules.0.packagePatterns
+1	renovate.json	/^        "github>aquaproj\/aqua-renovate-config#0.1.8"$/;"	s	array:extends
+1	renovate.json	/^        {$/;"	o	array:packageRules
+2	renovate.json	/^        {$/;"	o	array:packageRules
+automerge	renovate.json	/^        "automerge": true$/;"	b	object:patch
+devenv-borley1211	README.md	/^# devenv-borley1211$/;"	c
+enabled	renovate.json	/^            "enabled": false$/;"	b	object:packageRules.2
+enabled	renovate.json	/^        "enabled": true,$/;"	b	object:lockFileMaintenance
+extends	renovate.json	/^    "extends": [$/;"	a
+groupName	renovate.json	/^            "groupName": "Angular DevKit",$/;"	s	object:packageRules.1
+groupName	renovate.json	/^            "groupName": "Unit test package",$/;"	s	object:packageRules.0
+init_prezto	init/lazy/zsh-plugman.sh	/^init_prezto() {$/;"	f
+init_sheldon	init/lazy/zsh-plugman.sh	/^init_sheldon() {$/;"	f
+init_zinit	init/lazy/zsh-plugman.sh	/^init_zinit() {$/;"	f
+init_zshrc	init/lazy/zsh-plugman.sh	/^init_zshrc() {$/;"	f
+install_dep_neovim	init/lazy/neovim.sh	/^install_dep_neovim() {$/;"	f
+install_neovim_as_appimage	init/lazy/neovim.sh	/^install_neovim_as_appimage() {$/;"	f
+install_neovim_from_ppa	init/lazy/neovim.sh	/^install_neovim_from_ppa() {$/;"	f
+labels	renovate.json	/^    "labels": [$/;"	a
+lockFileMaintenance	renovate.json	/^    "lockFileMaintenance": {$/;"	o
+packagePatterns	renovate.json	/^            "packagePatterns": [$/;"	a	object:packageRules.0
+packagePatterns	renovate.json	/^            "packagePatterns": [$/;"	a	object:packageRules.1
+packagePatterns	renovate.json	/^            "packagePatterns": [$/;"	a	object:packageRules.2
+packageRules	renovate.json	/^    "packageRules": [$/;"	a
+patch	renovate.json	/^    "patch": {$/;"	o
+schedule	renovate.json	/^        "schedule": [$/;"	a	object:lockFileMaintenance
+schedule	renovate.json	/^    "schedule": [$/;"	a
+timezone	renovate.json	/^    "timezone": "Asia\/Tokyo",$/;"	s
