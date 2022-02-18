@@ -1,0 +1,43 @@
+{
+    "extends": [
+        "config:base",
+        "github>aquaproj/aqua-renovate-config#0.1.8"
+    ],
+    "timezone": "Asia/Tokyo",
+    "schedule": [
+        "before 2pm"
+    ],
+    "labels": [
+        "renovate"
+    ],
+    "patch": {
+        "automerge": true
+    },
+    "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+            "before 3am on the first day of the month"
+        ]
+    },
+    "packageRules": [
+        {
+            "groupName": "Unit test package",
+            "packagePatterns": [
+                "^jasmine",
+                "^karma"
+            ]
+        },
+        {
+            "groupName": "Angular DevKit",
+            "packagePatterns": [
+                "^@angular-devkit/"
+            ]
+        },
+        {
+            "packagePatterns": [
+                "^mysql"
+            ],
+            "enabled": false
+        }
+    ]
+}
